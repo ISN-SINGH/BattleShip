@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Battleship"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BattleShip">
+				<Option output="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/BattleShip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 BattleShip"/>
+					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BattleShip/fast">
+				<Option output="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/BattleShip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 BattleShip/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j16 -f &quot;/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/board.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/board.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/game.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/game.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/game_type.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/game_type.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/main.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/setup.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/setup.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/ship.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/GameFiles/ship.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/AIPlayers/cheater.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/AIPlayers/cheater.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/AIPlayers/random.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/AIPlayers/random.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/AIPlayers/search_destroy.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/AIPlayers/search_destroy.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/ai_player.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/ai_player.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/human.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/human.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/player.cpp">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/Players/player.h">
+			<Option target="BattleShip"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ishan/Documents/CLionProjects/BattleShip/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
