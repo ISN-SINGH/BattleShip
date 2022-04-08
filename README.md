@@ -22,13 +22,19 @@ The game begins by allowing the user to choose between 3 gamemodes.
 
 ## AI Types
 Each AI in the game can be one of the following types.
-1. RandomAI
-
-2. CheatingAI
-
-3. HuntDestroyAI
+1. RandomAI - Randomly guesses coordinates to fire at on the board. Never chooses the same coordinate twice.
+2. CheatingAI - Knows location of opponent's ships and plays perfectly by never missing
+3. HuntDestroyAI - Operates in two distinct modes. Hunt mode fires and random locations until a ship is hit. Destroy mode activates once a ship is hit and the AI will attack all coordinates surrounding the hit. Subsequent hits in this mode will add more locations to fire at until the AI has gone through all surrounding coordinates
 
 Three AI types:
 Random - Attacks random coordinates in the board
 Cheating - Knows the location of all enemy ships and never misses
 Hunt-Destroy - Attacks at random until a ship is hit in which case the AI chooses random coordinates around the coordinate of the ship that was hit
+
+## Remarks
+This project demonstrated to me the value of unique pointers and inheritance which were vital to this project. By coding a single game between two unique pointers of superclass Player, a human or any type of AI could be substituted. This project was coded from scratch by a classmate and me in my Object Oriented Programming class.
+
+![](https://user-images.githubusercontent.com/97923543/162537882-474c260d-ccee-4c1e-a97e-662b9320bbad.png)
+![](https://user-images.githubusercontent.com/97923543/162537941-7e894c00-8f1d-4c08-838f-f2456a0f1be7.png)
+![](https://user-images.githubusercontent.com/97923543/162537962-ce9a4723-aedf-4574-8c21-436e973a87e4.png)
+
